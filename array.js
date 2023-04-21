@@ -2,7 +2,7 @@ let a=[1,2,3.5,true,"hello"]
 console.log(a);
 a.push(100)
 console.log(a);
-a.pop()
+a.pop()//it will follow LIFO(Last in first out)
 console.log(a);
 for(let i=0;i<a.length;i++){
     console.log(a[i]);
